@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM EVENTS</title>
+    <link rel="stylesheet" href="../javascript/stylejava.css">
+    <Style>
+       
+    </Style>
+</head>
+<body>
+ <h1>Welcome to DOM EVENTS</h1>
+ <div id="customeText">
+     <P>We hope you’ve enjoyed these quotes about smiling. When it comes down to it, we know that smiling is not just a way that our body expresses the joy in our mind, but a way that it can help to create the positive emotions.
+
+Taking just a few minutes of your day to smile intentionally will improve your confidence and attract positive energy.</P>
+ </div>
+ <div id="divItem"> 
+    <img id="imgItem" onmouseover="changeImage();" onmouseout="resetImage();" src="./pics/expressions baby.jpg" height="300px" width="300px">
+ </div> 
+ <button onclick="changer();">Change Image</button>  
+ <button onclick="hide();">Disappear</button>  
+ <button ondblclick="reset();">Reset All</button>
+ <script>
+      var item= document.getElementById("imgItem");
+      function changer(){
+          divItem.innerHTML="<p>Your item is missing</p>";
+
+      }
+      function reset(){
+          item.removeAttribute("Hidden","true");
+      }
+     function hide(){
+          item.setAttribute("hidden","true");
+            }
+     function changeImage(){
+          item.removeAttribute("src","./pics/expressions baby.jpg");
+          item.setAttribute("src","./pics/baby-faces-4.jpg");
+      }
+      function resetImage(){
+          item.removeAttribute("src","./pics/baby-faces-4.jpg");
+          item.setAttribute("src","./pics/expressions baby.jpg");
+      }
+
+ </script>
+</body>
+</html>

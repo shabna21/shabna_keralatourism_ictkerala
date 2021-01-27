@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en"  dir="ltr">
+<head>
+  <meta charset="utf-8">
+    <title>Kerala Tourism</title>
+    <link rel="stylesheet" href="./css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</head>  
+  <body  background="./images/assign pics/img1.jpg">
+  <!-- navbar starts here -->
+  <nav class="navbar">
+    <img class="logo" src="./images/assign pics/logo.png">          
+    <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a class="active" href="login.html">Login</a></li>
+    <li><a href="SignUp.html">Sign Up</a></li>
+    <li><a href="districts.html">Districts</a></li>
+    <li><a href="#">Contact Us</a></li>
+    <li><a href="#">Search</a></li>
+    <input type="text" placeholder="Search" aria-label="Search">
+            </ul>
+</nav>
+    <!-- navbar ends here -->    
+  <!-- form div starts here -->
+ 
+ <div class="container">
+    <form name="myForm"action="./index.html" onsubmit="return validate();" class="login">
+        <h2>User Login</h2>
+            <br>
+            <div> 
+         <div class="login-cont">         
+          <label>Username</label>
+          <br>
+          <input type="text" name="email" id="emails" class="login-control" placeholder="Enter Your Email Address" required> 
+          <span id="username" class="text-danger font-weight-bold"></span>  
+          <br>       
+          <div><h6>We'll never share your email with anyone else.</h6></div>
+          </div>
+          <br>
+        </div> 
+        <div>
+        <div class="login-conts">
+          <label>Password</label>
+          <br>
+          <input type="password" name="password" id="pwd" class="login-control" placeholder="Enter Your Password" onkeyup="CheckPasswordStrength(this.value);">
+          <span id="password_strength"></span>
+          <span id="password" class="text-danger font-weight-bold"></span> 
+          
+          <!-- <progress id="progress" value="0" max="100">15</progress>
+         <span id="progresslabel"></span></div>     -->
+        </div> 
+        <div class="button">
+                   <input type="submit" value="Log In"id="btn">
+        </div>
+        <div>
+          <h3>Need an Account?</h3>
+          <a href="./SignUp.html" class="acnt-login">Sign Up</a>
+        </div>
+        </form>
+         <script src="css/form.js">
+        </script>
+            </body>
+            </html>
+          

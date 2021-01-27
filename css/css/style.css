@@ -1,0 +1,1005 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,800,900&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-size:100% 10%;
+    background-repeat: no-repeat;
+
+} 
+
+section
+{
+    position: relative;
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    overflow: hidden;
+}
+section div
+{   
+    position: relative;
+    width: 100%;
+    /* background:greenyellow; */
+    overflow: hidden;    
+        }
+        section div:nth-child(1){
+            /* padding-top: 5%; */
+           position: relative;
+           width: 100%;
+           background: url(img1.jpg);
+           background-size: cover;
+           overflow: hidden;
+       }
+       section div:nth-child(1) h1{
+          -webkit-text-stroke:1px;
+          -webkit-text-stroke-color:white;
+          -webkit-text-fill-color:transparent;
+          left:0%;
+         }
+section div h1
+{
+    font-style: italic;
+    color:darkred;
+     position: absolute;
+     white-space: nowrap;
+     font-size: 6em;
+     line-height: 8vh;   
+     animation: animate 8s linear infinite; 
+     padding-top: 5%;
+ }
+@keyframes animate{
+     0%
+     {
+         transform: translateX(0);
+     }
+     100%{
+         transform: translateX(-100%);
+     }
+    
+    }
+    /* section div:nth-child(1){
+        padding-top: 5%;
+       position: relative;
+       width: 100%;
+       background: url(img1.jpg);
+       background-size: cover;
+       overflow: hidden;
+   } */
+   section div:nth-child(1) h4{
+      -webkit-text-stroke:2px;
+      -webkit-text-stroke-color:white;
+      -webkit-text-fill-color:transparent;
+      left:0%;
+     }
+    section div h4
+{
+    padding-top: 20%;
+    font-style: italic;
+    color:darkblue;
+     position: absolute;
+     white-space: nowrap;
+     font-size: 2em;
+     line-height: 5vh;   
+     animation: animate 5s linear infinite; 
+ }
+@keyframes animate{
+     0%
+     {
+         transform: translateX(0);
+     }
+     100%{
+         transform: translateX(-100%);
+     }
+    
+    }
+/* section div:nth-child(2) h2{
+        padding-top: 5%;
+       background:transparent;    
+    } */
+
+  .navbar
+ {
+     height:80px;
+     width:100%;
+     background:purple;
+}
+.logo
+{
+        width: 150px;
+        height:70px;
+        margin-left: 40px;
+        margin-top: 0px;
+                      
+}
+.navbar ul
+{
+    float: right;
+    margin-right:30px;
+}
+.navbar ul li
+{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 10px;
+    padding-top: 3%;
+}
+.navbar ul li a
+{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover
+{
+background: yellowgreen;
+border-radius: 2px;
+}
+.container-main{
+       width:100% ;
+   position: relative;
+   height: auto;
+   color:black;
+ }
+.myMargin{
+    margin-left: 0%;
+    padding-top: 10%;
+    float: left;
+    width:60%;
+    margin-right: 15%;    
+
+}   
+.carousel-inner{
+    box-sizing: border-box;
+    border-radius: 40px;
+    border: 8px solid darkred;
+    width:100%;
+    height: auto;
+}
+.carousel-slide{
+color: darkblue;
+box-sizing: border-box;
+border-radius: 25px;
+} 
+.srch{
+    float: right;
+}
+.container{
+    height: 75vh;
+    padding: 10px 10px;
+    font-size: 20px;
+
+}
+.login{
+    margin-left: 33%;    
+    margin-right: 35%;
+    height: 100%;
+    margin-top: 5%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+   background:lavender;
+    width:35%; 
+} 
+.login #emails{
+    
+    width: 95%;
+}
+.login #pwd{
+    width: 95%;
+}
+ .login h2{
+     padding-top: 10px;
+     font-style: italic;
+     height: 10vh;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: 800;
+     color: mediumblue;
+    text-align:center;
+    background-color:yellowgreen;     
+} 
+.login h6{
+    font-weight:600;
+    font-size: 15px;
+    color:black;
+    margin-top: 5px;
+}
+.login-cont{
+    padding-left: 5%;
+    padding-bottom: 5%;
+    font-weight: bold;    
+    }
+    .login-conts{
+        padding-left: 5%;
+        padding-bottom: 5%;
+        font-weight: bold;    
+        }
+.login h3{
+        font-weight: normal;
+        font-size: 20px;
+        color: blue;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+.login a{
+    margin-top: 20px;
+        margin-left: 20px;    
+    }
+.button #btn{
+        color:white;
+       background-color: blue;
+        border-radius: 4px;
+        cursor: pointer;
+        outline: none;
+        font-weight: bold;
+        border: 2px solid white;
+        margin-left: 40%;
+        width: 70px;
+        height: 35px;  
+    }
+
+/* code for pass strngth */
+   
+    
+
+/* code for pass strngth */
+
+
+
+
+
+    .center{ 
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    transform: translate(-50%,-50%);    
+    user-select: none;
+}   
+.center h1{
+    color:navy;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 900px;
+    text-align: center;
+}
+.center h2{
+    color:navy;
+    font-size: 30px;
+    font-weight: bold;
+    width: 880px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin:10px ;    
+}
+
+.dist{
+    border: 2px solid blue;
+    width:100%;
+    height: auto; 
+    padding-top:5%;
+padding-left: 15px;
+box-sizing: border-box;
+border-radius: 15px;
+} 
+
+.districts h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color:navy;
+    background-color:olivedrab;
+        text-align: center;
+}
+.dis{
+    text-decoration: blue;
+    text-align: center;
+    color: crimson;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    text-align: center;
+    margin-left: 30%;
+}
+.dist-kl{
+    padding: 5px 5px;
+    padding-left: 5%;
+    float: left;
+    width: 30%;
+    height: auto;
+    padding-left: 5%;
+    
+    
+}
+.sign-head{
+    background:darkcyan;
+    height: 15vh;   
+}
+
+.sign-head h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+ position: relative;
+ margin-left: 42%;
+ color:white;
+ font-style: italic;
+ font-size: 50px;
+
+
+}
+.sec{
+    display: flex;
+    /* margin-top: ;
+    margin-left: 36%; */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(-30deg,lightblue 50%,teal 50%,grey 100%);
+    /* filter:hue-rotate(120deg); */
+    animation: animate1 3s linear infinite;
+}
+ @keyframes animate1{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%
+    {
+       filter: hue-rotate(100deg);
+
+    }
+}
+.box{
+    position: relative;
+    width: 650px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:white;
+        border-radius: 6px;
+    box-shadow: 0 5px 35px white;
+   font-size: 25px;   
+    
+}
+.box::after{
+    content: '';
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 5px;
+    pointer-events: none;
+    background: linear-gradient(to bottom,grey 0%,rgb(150, 179, 216) 1%,transparent 50%,transparent 80%,grey 100%);
+
+}
+.box .form{
+    color:black;
+    width: 300px;
+    margin-bottom: 20px;
+   
+    font-weight: bolder;
+    margin-left: 5%;
+    }
+    .box .form .Input8x input{
+        width: 100%;
+        outline: none;
+        border: 1px solid black;
+        background: transparent;
+        padding: 5px 10px;
+        border-radius: 8px;
+        /* color: white; */
+        font-size: 15px;
+        font-weight:bold;
+        box-shadow: inset 0 0 25 white;
+        font-weight: bold;
+        margin-bottom: 10px;
+      
+       
+    } 
+    .box .form-control{
+        width: 100%;
+        margin-top: 10px;
+       
+    }
+    .box .Signup-button{
+        border-radius: 8px;
+        border:2px solid blue;
+       background-color: blue;
+       margin-left: 40%;
+          font-weight: bolder;
+       color: white;
+       width: 22%;
+      
+        }   
+.head h1{    
+    font-size: 12vh;
+        color: blueviolet;
+        /* padding-left: 40%; */
+        padding-top: 2%;
+        font-style: italic;
+        text-align: center;
+        text-decoration:none;
+        text-transform: capitalize;
+       
+    }   
+    .container1{
+        float: left;
+        position: absolute;
+        top: 53%;
+        left: 90%;
+        transform: translate(-50%,-50%);
+        width: 500px;
+        padding: 30px;
+        padding-left: 5px;
+        margin-top: 50px;
+        background:rosybrown;
+        /* box-sizing: border-box; */
+        border-radius: 10px;
+        box-shadow: 0 15px 50px greenyellow;
+        transform: translate(-100%,-35%);        
+    }
+    .circle{
+        width: 150px;
+        height: 150px;
+        background: url("../images/districts/kasar.jpg");
+        border-radius: 50%;
+        float: left;
+        shape-outside: circle();
+        margin:45px 30px 30px 0;
+    }
+    .container1 p{
+        margin: 0;
+        padding: 0;
+        text-align: justify;
+        line-height: 22px;
+    }
+    .container1 h3{
+        margin: 0 0 20px;
+        padding: 0;
+        font-size: 30px;
+    }
+    .container1-kzd{
+        float: left;
+        position: absolute;
+        top:4%;
+        left: 90%;
+        transform: translate(-50%,-50%);
+        width: 600px;
+        /* padding: 30px; */
+        padding-left: 15px;
+        margin-top: 30%;
+        margin-left:50px;
+        background:rosybrown;
+        /* box-sizing: border-box; */
+        border-radius: 10px;
+        box-shadow: 0 15px 50px greenyellow;
+        transform: translate(-100%,-35%);            
+    }
+    .circle{
+        width: 150px;
+        height: 150px;
+        background: url("../images/districts/kasar.jpg");
+        border-radius: 50%;
+        float: left;
+        shape-outside: circle();
+        margin:55px 30px 30px 0;
+    }
+    .container1-kzd p{
+        margin: 0;
+        padding: 0;
+        text-align: justify;
+        line-height: 22px;
+    }
+    .container1 h3{
+        margin: 0 0 20px;
+        padding: 0;
+        font-size: 30px;
+    }
+.head{
+    height: 20vh;
+    background:mediumvioletred;
+    }
+    .dist-img{
+        width: 40%;
+        height: 55%;
+        float: left;;
+        margin-left: 5%;
+        margin-top: 4%;
+    }    
+    .container-main .cont-1{
+        float: left;
+        position: absolute;
+        top:60%;
+        left: 70%;
+        width: 600px;
+        padding: 20px;
+        padding-left: 30px;
+        margin-top: 48%;
+        margin-left:30%;       
+        background:tan;
+        border-radius: 10px;
+        box-shadow: 0 15px 50px greenyellow;
+        transform: translate(-100%,-0%);            
+    }
+    .container-main .circle1{
+        width: 200px;
+        height: 200px;
+        background: url("../images/districts/kasar.jpg");
+        border-radius: 50%;
+        float: left;
+        shape-outside: circle();
+        margin:55px 30px 30px 0;
+    }
+    .container-main .cont-1 p{
+        margin: 0;
+        padding: 0;
+        text-align: justify;
+        line-height: 22px;
+    }
+    .container-main .cont-1 h3{
+        margin: 0 0 20px;
+        padding: 0;
+        font-size: 30px;
+        color:blue;
+    }
+     .Pl-ker{
+         background:white;
+         padding: 0;
+         float:right;
+         top: 80%;
+         left: 95%;
+         right: 10%;
+         bottom: 50%; 
+         margin-top: 50%;
+         margin-right: 30%;  
+         margin-left: 50%;     
+         position: relative;       
+         transform: translate(-100%,0%);
+        width: 75%;     
+        box-shadow: 0 20px 50px greenyellow;           
+     }
+     .Pl-ker p{
+         font-size: 14px;
+     }
+    .Pl-ker .card-img-top{
+        width: 50%;
+        height: auto;
+    }
+    .Pl-ker .card{
+        background:lightcoral;
+    }
+.Pl-ker .card-title{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+}
+.pl-head{
+    text-align: center;
+    font-style: italic;
+    font-size: 60px;
+    font-family:fantasy;
+    color:midnightblue;
+}
+.container1-way{
+    float: left;
+    position: absolute;
+    top: 56%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    padding: 30px;
+    padding-left: 5px;
+    margin-top: 70px;
+    background:rosybrown;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px greenyellow;
+    transform: translate(-100%,-35%);
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    background: url("../images/districts/wayanad.jpg");
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin:45px 30px 30px 0;
+}
+.container1-way p{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    line-height: 22px;
+
+}
+.container1-way h3{
+    margin: 5px 5px 20px;
+    padding: 0;
+    font-size: 30px;
+}
+
+.container1-mal{
+    float: left;
+    position: absolute;
+    top: 55%;
+    left: 95%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 30px;
+    padding-left: 5px;
+    margin-top: 70px;
+    background:rosybrown;
+    /* box-sizing: border-box; */
+    border-radius: 10px;
+    box-shadow: 0 15px 50px greenyellow;
+    transform: translate(-100%,-35%);
+    
+}
+.circle-mal{
+    width: 150px;
+    height: 150px;
+    background: url("../images/districts/mala.jpg");
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin:45px 30px 30px 0;
+}
+.container1-mal p{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    line-height: 22px;
+
+}
+.container1-mal h3{
+    margin: 5px 5px 20px;
+    padding: 0;
+    font-size: 30px;
+}
+.container1-pala{
+    float: left;
+    position: absolute;
+    top: 65%;
+    left: 95%;
+    transform: translate(-50%,-50%);
+    width: 650px;
+    padding: 30px;
+    padding-left: 5px;
+    margin-top: 68px;
+    background:rosybrown;
+    /* box-sizing: border-box; */
+    border-radius: 10px;
+    box-shadow: 0 15px 50px greenyellow;
+    transform: translate(-100%,-35%);
+    
+}
+.circle-pala{
+    width: 150px;
+    height: 150px;
+    background: url("../images/districts/pala.jpg");
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin:45px 30px 30px 0;
+}
+.container1-pala p{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    line-height: 22px;
+
+}
+.container1-pala h3{
+    margin: 5px 5px 20px;
+    padding: 0;
+    font-size: 30px;
+}
+.container1-tsr{
+    float: left;
+    position: absolute;
+    top: 63%;
+    left: 95%;
+    transform: translate(-50%,-50%);
+    width: 650px;
+    padding: 30px;
+    padding-left: 5px;
+    margin-top: 45px;
+    background:rosybrown;
+    /* box-sizing: border-box; */
+    border-radius: 10px;
+    box-shadow: 0 15px 50px greenyellow;
+    transform: translate(-100%,-35%);
+    
+}
+.circle-tsr{
+    width: 150px;
+    height: 150px;
+    background: url("../images/districts/thrissur.jpg");
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin:45px 30px 30px 0;
+}
+.container1-tsr p{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    line-height: 22px;
+
+}
+.container1-tsr h3{
+    margin: 5px 5px 20px;
+    padding: 0;
+    font-size: 30px;
+}
+.container1-ekm{
+    float: left;
+    position: absolute;
+    top: 60%;
+    left: 95%;
+    transform: translate(-50%,-50%);
+    width: 650px;
+    padding: 30px;
+    padding-left: 5px;
+    margin-top: 40px;
+    background:rosybrown;
+    /* box-sizing: border-box; */
+    border-radius: 10px;
+    box-shadow: 0 15px 50px greenyellow;
+    transform: translate(-100%,-35%);
+    
+}
+.circle-ekm{
+    width: 150px;
+    height: 150px;
+    background: url("../images/districts/ekm.jpg");
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin:45px 30px 30px 0;
+}
+.container1-ekm p{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    line-height: 22px;
+
+}
+.container1-ekm h3{
+    margin: 5px 5px 20px;
+    padding: 0;
+    font-size: 30px;
+}
+.container1-idk{
+    float: left;
+    position: absolute;
+    top: 65%;
+    left: 95%;
+    transform: translate(-50%,-50%);
+    width: 650px;
+    padding: 30px;
+    padding-left: 5px;
+    margin-top: 40px;
+    background:rosybrown;
+    /* box-sizing: border-box; */
+    border-radius: 10px;
+    box-shadow: 0 15px 50px greenyellow;
+    transform: translate(-100%,-35%);
+    
+}
+.circle-idk{
+    width: 150px;
+    height: 150px;
+    background: url("../images/districts/idukki.jpg");
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin:45px 30px 30px 0;
+}
+.container1-idk p{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    line-height: 22px;
+
+}
+.container1-idk h3{
+    margin: 5px 5px 20px;
+    padding: 0;
+    font-size: 30px;
+}
+.container1-ktym{
+    float: left;
+    position: absolute;
+    top: 56%;
+    left: 95%;
+    transform: translate(-50%,-50%);
+    width: 650px;
+    padding: 30px;
+    padding-left: 5px;
+    margin-top: 40px;
+    background:rosybrown;
+    /* box-sizing: border-box; */
+    border-radius: 10px;
+    box-shadow: 0 15px 50px greenyellow;
+    transform: translate(-100%,-35%);
+    
+}
+.circle-ktym{
+    width: 150px;
+    height: 150px;
+    background: url("../images/districts/kottayam.jpg");
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin:45px 30px 30px 0;
+}
+.container1-ktym p{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    line-height: 22px;
+
+}
+.container1-ktym h3{
+    margin: 5px 5px 20px;
+    padding: 0;
+    font-size: 30px;
+}
+.container1-alp{
+    float: left;
+    position: absolute;
+    top: 58%;
+    left: 95%;
+    transform: translate(-50%,-50%);
+    width: 650px;
+    padding: 30px;
+    padding-left: 5px;
+    margin-top: 40px;
+    background:rosybrown;
+    /* box-sizing: border-box; */
+    border-radius: 10px;
+    box-shadow: 0 15px 50px greenyellow;
+    transform: translate(-100%,-35%);
+    
+}
+.circle-alp{
+    width: 150px;
+    height: 150px;
+    background: url("../images/districts/alappey.jpg");
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin:45px 30px 30px 0;
+}
+.container1-alp p{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    line-height: 22px;
+
+}
+.container1-alp h3{
+    margin: 5px 5px 20px;
+    padding: 0;
+    font-size: 30px;
+}
+.container1-ptn{
+    float: left;
+    position: absolute;
+    top: 56%;
+    left: 95%;
+    transform: translate(-50%,-50%);
+    width: 650px;
+    padding: 30px;
+    padding-left: 5px;
+    margin-top: 40px;
+    background:rosybrown;
+    /* box-sizing: border-box; */
+    border-radius: 10px;
+    box-shadow: 0 15px 50px greenyellow;
+    transform: translate(-100%,-35%);
+    
+}
+.circle-ptn{
+    width: 150px;
+    height: 150px;
+    background: url("../images/districts/path.jpg");
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin:45px 30px 30px 0;
+}
+.container1-ptn p{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    line-height: 22px;
+
+}
+.container1-ptn h3{
+    margin: 5px 5px 20px;
+    padding: 0;
+    font-size: 30px;
+}
+.container1-klm{
+    float: left;
+    position: absolute;
+    top: 63%;
+    left: 95%;
+    transform: translate(-50%,-50%);
+    width: 650px;
+    padding: 30px;
+    padding-left: 5px;
+    margin-top: 40px;
+    background:rosybrown;
+    /* box-sizing: border-box; */
+    border-radius: 10px;
+    box-shadow: 0 15px 50px greenyellow;
+    transform: translate(-100%,-35%);
+    
+}
+.circle-klm{
+    width: 150px;
+    height: 150px;
+    background: url("../images/districts/kolm3.jpg");
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin:45px 30px 30px 0;
+}
+.container1-klm p{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    line-height: 22px;
+
+}
+.container1-klm h3{
+    margin: 5px 5px 20px;
+    padding: 0;
+    font-size: 30px;
+}
+.container1-tvm{
+    float: left;
+    position: absolute;
+    top: 74%;
+    left: 95%;
+    transform: translate(-50%,-50%);
+    width: 650px;
+    padding: 30px;
+    padding-left: 5px;
+    margin-top: 40px;
+    background:rosybrown;
+    /* box-sizing: border-box; */
+    border-radius: 10px;
+    box-shadow: 0 15px 50px greenyellow;
+    transform: translate(-100%,-35%);
+    
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    background: url("../images/districts/tvm.jpg");
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin:45px 30px 30px 0;
+}
+.container1-tvm p{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    line-height: 22px;
+
+}
+.container1-tvm h3{
+    margin: 5px 5px 20px;
+    padding: 0;
+    font-size: 30px;
+}
