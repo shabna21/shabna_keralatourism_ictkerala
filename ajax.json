@@ -1,0 +1,92 @@
+{
+    "grocery":[
+        {
+            "serial_no":"1",
+            "name":"Tomato",
+            "quantity":"1Kg",
+            "unit":"no",
+            "department":"Vegetables",
+            "notes":"cherrytomatoes"
+         },
+         {
+            "serial_no":"2",
+            "name":"Potato",
+            "quantity":"1Kg",
+            "unit":"no",
+            "department":"Vegetables",
+            "notes":"Vegetables" 
+         },
+         {
+            "serial_no":"3",
+            "name":"Coconut oil",
+            "quantity":"1Kg",
+            "unit":"no",
+            "department":"Cooking Oil",
+            "notes":"cooking oil"
+         },
+         {
+            "serial_no":"4",
+            "name":"Basmati Rice",
+            "quantity":"1Kg",
+            "unit":"no",
+            "department":"Rice",
+            "notes":"Biriyani Rice"
+         },
+         {
+            "serial_no":"5",
+            "name":"Coffe",
+            "quantity":"1Kg",
+            "unit":"no",
+            "department":"Beverages",
+            "notes":"Nescafe Coffee Powder"
+         },
+         {
+            "serial_no":"5",
+            "name":"Coffee",
+            "quantity":"1Kg",
+            "unit":"no",
+            "department":"Beverages",
+            "notes":"Nescafe Coffee Powder"
+         },
+         {
+            "serial_no":"6",
+            "name":"Tea",
+            "quantity":"500g",
+            "unit":"no",
+            "department":"Beverages",
+            "notes":"AVT"
+         },
+         {
+            "serial_no":"7",
+            "name":"Sugar",
+            "quantity":"1Kg",
+            "unit":"no",
+            "department":"Sugar",
+            "notes":"ambadi"
+         },
+         {
+            "serial_no":"8",
+            "name":"Salt",
+            "quantity":"1Kg",
+            "unit":"no",
+            "department":"Salt",
+            "notes":"Ashirvadh"
+         },
+         {
+            "serial_no":"9",
+            "name":"beans",
+            "quantity":"1Kg",
+            "unit":"no",
+            "department":"Vegetables",
+            "notes":"green beans"
+         },
+         {
+            "serial_no":"10",
+            "name":"Ghee",
+            "quantity":"1Kg",
+            "unit":"no",
+            "department":"oil",
+            "notes":"Milma ghee" 
+         }
+    ]
+ }
