@@ -428,7 +428,7 @@ border-radius: 15px;
         text-transform: capitalize;
        
     }   
-    .container1{
+    .container-kannur{
         float: left;
         position: absolute;
         top: 53%;
@@ -447,24 +447,24 @@ border-radius: 15px;
     .circle-kannur{
         width: 150px;
         height: 150px;
-        background: url("../images/assign pics/kannur.jpg");
+        background: url("/shabna_keralatourism_ictkerala/images/districts/kannur.jpg");
         border-radius: 50%;
         float: left;
         shape-outside: circle();
         margin:45px 30px 30px 0;
     }
-    .container1 p{
+    .container-kannur p{
         margin: 0;
         padding: 0;
         text-align: justify;
         line-height: 22px;
     }
-    .container1 h3{
+    .container-kannur h3{
         margin: 0 0 20px;
         padding: 0;
         font-size: 30px;
     }
-    .container1-kzd{
+    .container-kzd{
         float: left;
         position: absolute;
         top:4%;
@@ -484,7 +484,7 @@ border-radius: 15px;
     .circle-kzd{
         width: 150px;
         height: 150px;
-        background: url("../images/assign pics/.jpg");
+        background: url("/shabna_keralatourism_ictkerala/images/districts/kozhikode.jpg");
         border-radius: 50%;
         float: left;
         shape-outside: circle();
@@ -528,9 +528,9 @@ border-radius: 15px;
         transform: translate(-100%,-0%);            
     }
     .container-main .cont-1 .circle1{
-        width: 200px;
-        height: 200px;
-        background: url("../images/districts/kasar.jpg");
+        width: 250px;
+        height: 250px;
+        background: url("/shabna_keralatourism_ictkerala/images/kerala\ map.jpg");
         border-radius: 50%;
         float: left;
         shape-outside: circle();
@@ -604,7 +604,7 @@ border-radius: 15px;
 .circle-way{
     width: 150px;
     height: 150px;
-    background: url("../images/districts/wayanad.jpg");
+    background: url("/shabna_keralatourism_ictkerala/images/districts/wayanad.jpg");
     border-radius: 50%;
     float: left;
     shape-outside: circle();
@@ -622,7 +622,42 @@ border-radius: 15px;
     padding: 0;
     font-size: 30px;
 }
+.container1{
+    float: left;
+    position: absolute;
+    top: 56%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    padding: 30px;
+    padding-left: 5px;
+    margin-top: 70px;
+    background:rosybrown;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px greenyellow;
+    transform: translate(-100%,-35%);
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    background: url("/shabna_keralatourism_ictkerala/images/districts/kasar.jpg");
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin:45px 30px 30px 0;
+}
+.container1 p{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    line-height: 22px;
 
+}
+.container1 h3{
+    margin: 5px 5px 20px;
+    padding: 0;
+    font-size: 30px;
+}
 .container1-mal{
     float: left;
     position: absolute;
@@ -643,7 +678,7 @@ border-radius: 15px;
 .circle-mal{
     width: 150px;
     height: 150px;
-    background: url("../images/districts/mala.jpg");
+    background: url("/shabna_keralatourism_ictkerala/images/districts/mala.jpg");
     border-radius: 50%;
     float: left;
     shape-outside: circle();
@@ -681,7 +716,7 @@ border-radius: 15px;
 .circle-pala{
     width: 150px;
     height: 150px;
-    background: url("../images/districts/pala.jpg");
+    background: url("/shabna_keralatourism_ictkerala/images/districts/pala.jpg");
     border-radius: 50%;
     float: left;
     shape-outside: circle();
@@ -719,7 +754,7 @@ border-radius: 15px;
 .circle-tsr{
     width: 150px;
     height: 150px;
-    background: url("../images/districts/thrissur.jpg");
+    background: url("/shabna_keralatourism_ictkerala/images/districts/thrissur.jpg");
     border-radius: 50%;
     float: left;
     shape-outside: circle();
@@ -757,7 +792,7 @@ border-radius: 15px;
 .circle-ekm{
     width: 150px;
     height: 150px;
-    background: url("../images/districts/ekm.jpg");
+    background: url("/shabna_keralatourism_ictkerala/images/districts/ekm.jpg");
     border-radius: 50%;
     float: left;
     shape-outside: circle();
@@ -795,7 +830,7 @@ border-radius: 15px;
 .circle-idk{
     width: 150px;
     height: 150px;
-    background: url("../images/districts/idukki.jpg");
+    background: url("/shabna_keralatourism_ictkerala/images/districts/idukki.jpg");
     border-radius: 50%;
     float: left;
     shape-outside: circle();
@@ -833,7 +868,7 @@ border-radius: 15px;
 .circle-ktym{
     width: 150px;
     height: 150px;
-    background: url("../images/districts/kottayam.jpg");
+    background: url("/shabna_keralatourism_ictkerala/images/districts/kottayam.jpg");
     border-radius: 50%;
     float: left;
     shape-outside: circle();
@@ -871,7 +906,7 @@ border-radius: 15px;
 .circle-alp{
     width: 150px;
     height: 150px;
-    background: url("../images/assignpics/alp1.jpg");
+    background: url("/shabna_keralatourism_ictkerala/images/districts/alappey.jpg");
     border-radius: 50%;
     float: left;
     shape-outside: circle();
@@ -909,7 +944,7 @@ border-radius: 15px;
 .circle-ptn{
     width: 150px;
     height: 150px;
-    background: url("../images/districts/path.jpg");
+    background: url("/shabna_keralatourism_ictkerala/images/districts/path.jpg");
     border-radius: 50%;
     float: left;
     shape-outside: circle();
@@ -947,7 +982,7 @@ border-radius: 15px;
 .circle-klm{
     width: 150px;
     height: 150px;
-    background: url(".images/assign pics/kolm1.jpg");
+    background: url("/shabna_keralatourism_ictkerala/images/districts/klm.jpg");
     border-radius: 50%;
     float: left;
     shape-outside: circle();
@@ -985,7 +1020,7 @@ border-radius: 15px;
 .circle{
     width: 150px;
     height: 150px;
-    background: url("../images/districts/tvm.jpg");
+    background: url("/shabna_keralatourism_ictkerala/images/districts/tvm.jpg");
     border-radius: 50%;
     float: left;
     shape-outside: circle();
