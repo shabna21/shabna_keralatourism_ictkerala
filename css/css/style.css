@@ -444,10 +444,10 @@ border-radius: 15px;
         box-shadow: 0 15px 50px greenyellow;
         transform: translate(-100%,-35%);        
     }
-    .circle{
+    .circle-kannur{
         width: 150px;
         height: 150px;
-        background: url("../images/districts/kasar.jpg");
+        background: url("../images/assign pics/kannur.jpg");
         border-radius: 50%;
         float: left;
         shape-outside: circle();
@@ -481,22 +481,22 @@ border-radius: 15px;
         box-shadow: 0 15px 50px greenyellow;
         transform: translate(-100%,-35%);            
     }
-    .circle{
+    .circle-kzd{
         width: 150px;
         height: 150px;
-        background: url("../images/districts/kasar.jpg");
+        background: url("../images/assign pics/.jpg");
         border-radius: 50%;
         float: left;
         shape-outside: circle();
         margin:55px 30px 30px 0;
     }
-    .container1-kzd p{
+    .container-kzd p{
         margin: 0;
         padding: 0;
         text-align: justify;
         line-height: 22px;
     }
-    .container1 h3{
+    .container-kzd h3{
         margin: 0 0 20px;
         padding: 0;
         font-size: 30px;
@@ -527,7 +527,7 @@ border-radius: 15px;
         box-shadow: 0 15px 50px greenyellow;
         transform: translate(-100%,-0%);            
     }
-    .container-main .circle1{
+    .container-main .cont-1 .circle1{
         width: 200px;
         height: 200px;
         background: url("../images/districts/kasar.jpg");
@@ -601,7 +601,7 @@ border-radius: 15px;
     box-shadow: 0 15px 50px greenyellow;
     transform: translate(-100%,-35%);
 }
-.circle{
+.circle-way{
     width: 150px;
     height: 150px;
     background: url("../images/districts/wayanad.jpg");
@@ -871,7 +871,7 @@ border-radius: 15px;
 .circle-alp{
     width: 150px;
     height: 150px;
-    background: url("../images/districts/alappey.jpg");
+    background: url("../images/assignpics/alp1.jpg");
     border-radius: 50%;
     float: left;
     shape-outside: circle();
@@ -947,7 +947,7 @@ border-radius: 15px;
 .circle-klm{
     width: 150px;
     height: 150px;
-    background: url("../images/districts/kolm3.jpg");
+    background: url(".images/assign pics/kolm1.jpg");
     border-radius: 50%;
     float: left;
     shape-outside: circle();
